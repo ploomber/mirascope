@@ -90,6 +90,9 @@ plugins:
           options:
             show_root_heading: false
             docstring_style: google
+  - mkdocs-thebe:
+      # endpoint to the server that manages Python processes
+      baseUrl: "https://endpoint.domain.io"
 
 nav:
   - Get Started:
