@@ -55,13 +55,3 @@ plugins:
 ```
 
 Change the `baseUrl` to the URL of your deployed Jupyterlab instance.
-
-## Testing
-
-[basic-example.md](../basic-example.md) contains a basic usage of runnable examples. The most important part is the interact button:
-
-```
-[Interact](#){ .md-button .small-button #activate-interactivity }
-```
-
-Feel free to copy-paste the code into your existing docs, or add it as its own page to test it out.
