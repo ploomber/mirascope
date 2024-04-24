@@ -1,7 +1,6 @@
-# Jupyterlab Server instance for mkdocs-thebe
+# Runnable examples
 
-This folder contains the necessary files for deploying a JupyterLab instance to use as the kernel for `mkdocs-thebe` runnable examples.
-The JupyterLab instance is already configured. To get runnable examples working simply deploy the kernel and add the base URL to your docs.
+This document explains how to get runnable examples in mirascope.
 
 ## Deploying
 
@@ -11,11 +10,15 @@ Ensure you have Ploomber Cloud installed:
 pip install ploomber-cloud
 ```
 
-Initialize your project as a docker project:
+Move to `jupyterlab-server`, and initialize your project as a docker project (only needed the first time):
 
 ```sh
+cd jupyterlab-server/
+ploomber-cloud key YOURKEY
 ploomber-cloud init
 ```
+
+Commit the repository to ensure the `ploomber-cloud.json` is included.
 
 Now deploy:
 
