@@ -55,6 +55,7 @@ extra:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
@@ -91,8 +92,7 @@ plugins:
             show_root_heading: false
             docstring_style: google
   - mkdocs-thebe:
-      # endpoint to the server that manages Python processes
-      baseUrl: "https://endpoint.domain.io"
+      baseUrl: "https://late-river-1432.ploomberapp.io"
 
 nav:
   - Get Started:
