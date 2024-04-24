@@ -44,7 +44,8 @@ import os
 from mirascope import tags
 from mirascope.openai import OpenAICall, OpenAICallParams
 
-os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
+# commented temporarily since the backend manages the api key
+# os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 
 
 @tags(["version:0003"])
