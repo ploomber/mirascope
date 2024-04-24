@@ -1,8 +1,7 @@
 FROM python:3.11
 
 RUN pip install jupyterlab ipywidgets --no-cache-dir
-RUN pip install numpy matplotlib pandas openai --no-cache-dir
-RUN pip install mirascope[all]
+RUN pip install mirascope[all] --no-cache-dir
 
 COPY jupyter_server_config.py /root/.jupyter/jupyter_server_config.py
 
