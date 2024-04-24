@@ -58,3 +58,16 @@ plugins:
 ```
 
 Change the `baseUrl` to the URL of your deployed Jupyterlab instance.
+
+
+## Testing
+
+You can deploy the temporary project to ploomber cloud.
+
+run this from the root directory:
+
+```sh
+docker build . -t mirascope-docs
+docker run -p 8000:80 mirascope-docs 
+```
+
